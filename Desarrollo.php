@@ -9,10 +9,10 @@ function convertirHoraAMinutos ($hora){
     $minutos = explode(":", $hora);
     $hours=$minutos[0];
     $minutes=$minutos[1];
-    $resultado=$hours+$minutes*60;
+    $resultado=$minutes+$hours*60;
     return $resultado;
 }
 
 echo convertirHoraAMinutos("11:30");
 
-
+function convertirTramoHorasATramoMinutos ($tramo)
