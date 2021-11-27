@@ -12,7 +12,7 @@ function convertirHoraAMinutos ($hora){
     $minutes=$minutos[1];
     $hours = (int)$hours;
     $minutes = (int)$minutes;
-    if($hours<23&&$hours>=0&&$minutes<=60&&$minutes>=0;{
+    if($hours<24&&$hours>=0&&$minutes<=60&&$minutes>=0){
         $resultado=$minutes+$hours*60;
         return $resultado;
     }
