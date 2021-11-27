@@ -2,7 +2,8 @@
 
 $horario=['10:00-13:30','16:30-20:30'];
 $ocupacion=['11:30-12:30','12:31-13:30','16:30-18:00'];
-$hora  = "11:30";
+$hora= "11:30";
+$tramo= "11:30-12:30"
 
 
 function convertirHoraAMinutos ($hora){
@@ -15,4 +16,6 @@ function convertirHoraAMinutos ($hora){
 
 echo convertirHoraAMinutos("11:30");
 
-function convertirTramoHorasATramoMinutos ($tramo)
+function convertirTramoHorasATramoMinutos ($tramo){
+
+}
